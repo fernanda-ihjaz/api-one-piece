@@ -1,0 +1,23 @@
+{
+    "group": {
+
+        "band": {
+            "id": "int",
+            "name": "string",
+            "description": "string"
+        },
+
+        "marine": {
+            "id": "int",
+            "name": "string",
+            "description": "string"
+        },
+
+        "world-government": {
+            "id": "int",
+            "name": "string", 
+            "description": "string"
+        }
+
+    }
+}
