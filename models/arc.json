@@ -1,0 +1,9 @@
+{
+    "arc": 
+    {
+        "id": "int",
+        "name": "string",
+        "id_location": ["int"],
+        "duration": "int"
+    }
+}

@@ -1,17 +1,21 @@
 {
-    "character": {
-        "pseudonym": "string",
+    "character": 
+    {
         "id": "int",
         "name": "string",
+        "pseudonym": ["string"],
         "age": "int",
-        "reward": "int",
-        "island": "string",
-        "ability": {
+        "bounty": "int",
+        "home_island": "int",
+        "group": ["int"],
+        "post": ["string"],
+        "skills": 
+        {
             "id": "int",
-            "name": "string",
-            "description": "string",
-            "id-akuma-no-mi": "int",
-            "id-haki": ["int"]
-        }
+            "akuma_no_mi": "int",
+            "haki": ["int"]
+        },
+        "attacks": [{"id": "int", "name": "string", "description": "string"}],
+        "history": "string"
     }
 }

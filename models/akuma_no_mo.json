@@ -1,0 +1,9 @@
+{
+    "akuma_no_mi": 
+    {
+        "id": "int",
+        "name": "string",
+        "description": "string",
+        "type": "string"
+    }
+}

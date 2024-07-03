@@ -1,0 +1,10 @@
+{
+    "skills": 
+    {
+        "id": "int",
+        "name": "string",
+        "description": "string",
+        "type": "string"
+
+    }
+}
