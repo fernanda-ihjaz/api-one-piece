@@ -1,21 +1,36 @@
 {
-    "character": 
-    {
-        "id": "int",
-        "name": "string",
-        "pseudonym": ["string"],
-        "age": "int",
-        "bounty": "int",
-        "home_island": "int",
-        "group": ["int"],
-        "post": ["string"],
-        "skills": 
+    "id": "int",
+    "name": "string",
+    "pseudonyms": [
+        "string"
+    ],
+    "age": "int",
+    "bounty": "int",
+    "home_island": "int",
+    "groups": [
         {
-            "id": "int",
-            "akuma_no_mi": "int",
-            "haki": ["int"]
-        },
-        "attacks": [{"id": "int", "name": "string", "description": "string"}],
-        "history": "string"
-    }
+            "id_crew": "int",
+            "id_org": "int"
+        }
+    ],
+    "posts": [
+        {
+            "position": "string",
+            "id_crew": "int",
+            "id_org": "int",
+            "active": "boolean"
+        }
+    ], 
+    "title": "string",
+    "akuma_no_mi": "int",
+    "skills": [
+        "int"
+    ],
+    "attacks": [
+        {
+            "name": "string",
+            "description": "string"
+        }
+    ],
+    "history":"string"
 }

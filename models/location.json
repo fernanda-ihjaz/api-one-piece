@@ -1,9 +1,6 @@
 {
-    "location": 
-    {
-        "id": "int",
-        "name": "string",
-        "sea": "string",
-        "climate": "string"
-    }
+    "id": "int",
+    "name": "string",
+    "sea": "string",
+    "climate": "string"
 }

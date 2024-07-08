@@ -1,9 +1,6 @@
 {
-    "organizations": 
-    {
-        "id": "int",
-        "name": "string",
-        "members": ["int"],
-        "type": "string"
-    }
+    "id": "int",
+    "name": "string",
+    "members": ["int"],
+    "type": "string"
 }
