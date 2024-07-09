@@ -2,5 +2,6 @@
     "id": "int",
     "name": "string",
     "id_location": ["int"],
+    "episodes": ["int"],
     "duration": "int"
 }

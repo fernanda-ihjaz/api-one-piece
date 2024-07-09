@@ -9,15 +9,13 @@
     "home_island": "int",
     "groups": [
         {
-            "id_crew": "int",
-            "id_org": "int"
+            "id_group": "int"
         }
     ],
     "posts": [
         {
             "position": "string",
-            "id_crew": "int",
-            "id_org": "int",
+            "id_group": "int",
             "active": "boolean"
         }
     ], 
@@ -32,5 +30,6 @@
             "description": "string"
         }
     ],
-    "history":"string"
+    "history":"string",
+    "arcs": ["int"]
 }

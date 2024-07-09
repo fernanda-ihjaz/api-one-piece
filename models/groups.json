@@ -1,0 +1,14 @@
+{
+    "id": "int",
+    "name": "string",
+    "members": ["int"],
+    "type": "string",
+
+    "crews": {
+        "id": "int",
+        "name": "string",
+        "ship": "string",
+        "members": ["int"],
+        "type": "string"
+    }
+}

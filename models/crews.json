@@ -1,7 +1,0 @@
-{
-    "id": "int",
-    "name": "string",
-    "ship": "string",
-    "members": ["int"],
-    "type": "string"
-}
