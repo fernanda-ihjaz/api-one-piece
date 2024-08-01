@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+
+    /* Language and Environment */
+    "target": "es2020",                                // Define a versão do JavaScript para a qual o TypeScript será compilado.
+    "module": "commonjs",                              // Define o sistema de módulos usado pelo projeto, comum em ambientes Node.js.
+    "outDir": "./dist",                                // Especifica o diretório onde os arquivos JavaScript compilados serão colocados.
+    "rootDir": "./src",                                // Especifica o diretório raiz do código-fonte TypeScript.
+    
+    /* Modules */
+    "moduleResolution": "node",                        // Especifica como o TypeScript resolve módulos, aqui configurado para seguir o padrão Node.js.
+    "resolveJsonModule": true,                         // Permite a importação de arquivos JSON como módulos.
+    
+    /* Interop Constraints */
+    "esModuleInterop": true,                           // Gera código adicional para melhorar a compatibilidade com módulos CommonJS.
+    "forceConsistentCasingInFileNames": true,          // Garante a consistência de maiúsculas e minúsculas em nomes de arquivos.
+    
+    /* Type Checking */
+    "strict": true,                                    // Habilita todas as verificações de tipo estritas para maior segurança e robustez do código.
+    
+    /* Completeness */
+    "skipLibCheck": true                               // Pula a verificação de arquivos de definição de biblioteca (.d.ts), acelerando a compilação.
+  },
+  "include": ["src/index.ts"],                          // Especifica quais arquivos devem ser incluídos no processo de compilação, aqui todos os arquivos TypeScript no diretório 'src'.
+  "exclude": ["node_modules"]                          // Especifica quais arquivos ou diretórios devem ser excluídos do processo de compilação, aqui o diretório 'node_modules'.
+}
